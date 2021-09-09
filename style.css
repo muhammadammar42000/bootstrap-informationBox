@@ -33,3 +33,8 @@
 .first-last-name{
     flex-flow: row;
 }
+@media only screen and (max-width:450px) {
+    .form{
+        width: 300px;
+    }
+}
