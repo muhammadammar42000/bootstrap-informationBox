@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container1{
+    width: 100vw;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    /* background-color: cadetblue; */
+}
+.app h1{
+    color: #007bff;
+    text-align: center;
+}
+.form{
+    width: 30rem;
+}
+.first-last-name{
+    flex-flow: row;
+}
